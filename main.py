@@ -1,7 +1,6 @@
 from userdatabase import UserDatabase
 from address import Address
 
-
 run = True
 myuserdatabase = UserDatabase()
 

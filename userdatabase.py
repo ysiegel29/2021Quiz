@@ -1,11 +1,13 @@
 from user import User
 
+
 class UserDatabase:
-    user_list = []
+    user_list = []  # store user objects
 
     def __init__(self):
         print('Database created successfully')
 
+    # create user and add it to class variable user_list. May be UserDatabase variable would be better...
     @staticmethod
     def create_user(fname, lname, age, address):
         UserDatabase.user_list.append(User(fname, lname, age, address))
